@@ -5,7 +5,7 @@ import 'package:flutter_projeto/helper/studente_fake_repository.dart';
 import '../../common/patterns/result.dart';
 import 'local_storage_contract.dart';
 
-class FakeApiDataBase implements LocalStorageContract{
+class FakeDbService implements LocalStorageContract{
   StudentFakeApiDataBase fakeDB = StudentFakeApiDataBase();
 
   @override
