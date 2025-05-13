@@ -30,6 +30,7 @@ environment:
 dependencies:
   auto_injector: ^2.1.0
   faker_dart: ^0.2.2
+  flip_card: ^0.7.0
   flutter:
     sdk: flutter
 
